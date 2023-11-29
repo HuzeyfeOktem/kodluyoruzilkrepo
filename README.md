@@ -8,3 +8,6 @@ Bu repo Kodluyoruz Front-End eğitiminde oluşturduğumuz ilk repo.İçerisinde 
 
 
 ## Installation
+
+Öncelikle projeyi clonelayın.(Buraya sizin reponuzdan aldığınız link gelecek)
+
