@@ -1,0 +1,12 @@
+/**************************** Başlık ***********************************/
+h1 {
+    color: red;
+    text-align: center;
+    font-family: 'Kalnia', serif;
+    text-transform: uppercase;
+    border-style:solid;
+    border-color: brown blue green magenta;
+    width: 500px;
+    margin: auto;
+    font-size: 30px;
+}
