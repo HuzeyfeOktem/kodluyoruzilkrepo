@@ -11,10 +11,43 @@ h1 {
     font-size: 30px;
 }
 
+h2{
+    color: red;
+    text-align: center;
+    font-family: 'Kalnia', serif;
+    text-transform: uppercase;
+    border-bottom: solid green;
+    width: 200px;
+    margin: auto;
+}
+
+h3{
+    color: red;
+    text-align: center;
+    font-family: 'Kalnia', serif;
+    text-transform: uppercase;
+    border-style: solid;
+    border-color: brown blue green magenta;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
 img{
     display: block;
     margin-left:auto;
     margin-right: auto;
     margin-top: 15px;
     width: 500px;
+}
+
+p {
+    font-size: large;
+    font-family: sans-serif;
+}
+
+.linespace{
+    line-height: 40px;
 }
