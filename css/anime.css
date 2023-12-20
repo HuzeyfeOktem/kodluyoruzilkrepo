@@ -11,7 +11,7 @@ h1 {
     font-size: 30px;
 }
 
-h2{
+h2 {
     color: red;
     text-align: center;
     font-family: 'Kalnia', serif;
@@ -21,7 +21,7 @@ h2{
     margin: auto;
 }
 
-h3{
+h3 {
     color: red;
     text-align: center;
     font-family: 'Kalnia', serif;
@@ -35,7 +35,7 @@ h3{
     margin-top: 15px;
 }
 
-img{
+img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -57,7 +57,7 @@ a {
     padding: 5px;
 }
 
-.sayfa{
+.sayfa {
     position: relative;
     top: 10px;  
     display: -ms-grid; 
@@ -67,4 +67,9 @@ a {
     border-style: double;
     border-width: 5px;
     background-color: cyan;
+}
+
+ul {
+    color: red;
+    font-size: 17px;
 }

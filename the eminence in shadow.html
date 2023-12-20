@@ -8,12 +8,21 @@
     <style>
         body {
             background-color: cornsilk;
+            position: relative;
+            bottom: 14px;
         }
 
         h1 {
             border: 2px solid;
             border-radius: 500px;
             border-color: green blueviolet blue saddlebrown;
+        }
+
+        p {
+            color: black;
+        }
+
+        a {
         }
     </style>
 </head>
@@ -22,7 +31,9 @@
     <!-- Header - Start -->
     <header>
         <nav>
-            <h1>the eminence in shadow</h1>
+            <a class="sayfa" href="#footer">
+                <strong>En aşağı sayfaya git</strong>
+            </a> <h1 id="başlik">the eminence in shadow</h1>
             <img src="images/the eminence in shadow.avif" alt="the eminence in shadow">
             <br> 
             <h2>konusu</h2>
@@ -38,6 +49,67 @@
             </p>
         </nav>
     </header>
-    
+    <!-- Header - End -->
+
+    <!-- Section - Start -->
+    <section>
+        <!-- Articles - Start -->
+        <article>
+            <h2>Karakterler</h2>
+            <ul>
+                <li>
+                    <p>Alexia Midgar</p>
+                </li>
+                <li>
+                    <p>Beta</p>
+                </li>
+                <li>
+                    <p>Claire Kageno</p>
+                </li>
+                <li>
+                    <p>Iris Midgar</p>
+                </li>
+                <li>
+                    <p>Gamma</p>
+                </li>
+                <li>
+                    <p>Alpha</p>
+                </li>
+                <li>
+                    <p>Rose Oriana</p>
+                </li>
+                <li>
+                    <p>Cid kageno</p>
+                </li>
+                <li>
+                    <p>Nu</p>
+                </li>
+                <li>
+                    <p>Delta</p>
+                </li>
+                <li>
+                    <p>Eta</p>
+                </li>
+                <li>
+                    <p id="footer">Epsilon</p>
+                </li>
+            </ul>
+        </article>
+        <!-- Articles - End -->
+    </section>
+    <!-- Section - End -->
+
+    <!-- Footer - Start -->
+    <footer>
+        <a href="Ana Sayfa.html">
+            <strong>Ana sayfaya git</strong>
+        </a>
+        <br>
+        <br>
+        <a class="sayfa" href="#başlik">
+            <strong>En yukarı sayfaya git</strong>
+        </a>
+    </footer>
+    <!-- Footer - End -->
 </body>
 </html>
