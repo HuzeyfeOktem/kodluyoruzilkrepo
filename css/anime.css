@@ -4,7 +4,7 @@ h1 {
     text-align: center;
     font-family: 'Kalnia', serif;
     text-transform: uppercase;
-    border-style:solid;
+    border-style: solid;
     border-color: brown blue green magenta;
     width: 500px;
     margin: auto;
@@ -37,7 +37,7 @@ h3{
 
 img{
     display: block;
-    margin-left:auto;
+    margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
     width: 500px;
@@ -55,4 +55,16 @@ a {
     border-color: blueviolet;
     margin: auto;
     padding: 5px;
+}
+
+.sayfa{
+    position: relative;
+    top: 10px;  
+    display: -ms-grid; 
+    bottom: 50px;
+    right: 13px;
+    color: darkgreen;
+    border-style: double;
+    border-width: 5px;
+    background-color: cyan;
 }
