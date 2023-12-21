@@ -1,4 +1,4 @@
-/**************************** Başlık ***********************************/
+/************************************** Başlıklar ************************************************/
 h1 {
     color: red;
     text-align: center;
@@ -35,6 +35,8 @@ h3 {
     margin-top: 15px;
 }
 
+/************************************** img,p,a,ul ************************************************/
+
 img {
     display: block;
     margin-left: auto;
@@ -57,6 +59,13 @@ a {
     padding: 5px;
 }
 
+ul {
+    color: red;
+    font-size: 17px;
+}
+
+/************************************** class ************************************************/
+
 .sayfa {
     position: relative;
     top: 10px;  
@@ -69,7 +78,14 @@ a {
     background-color: cyan;
 }
 
-ul {
-    color: red;
-    font-size: 17px;
+.syf {
+    position: relative;
+    top: 30px;
+    display: -ms-grid;
+    right: 13px;
+    color: darkgreen;
+    border-style: double;
+    border-width: 5px;
+    background-color: cyan;
+    border-bottom: 0px;
 }
